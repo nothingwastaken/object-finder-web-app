@@ -3,7 +3,7 @@ video = ""
 
 function preload(){
     video = createCapture(VIDEO);
-    video.size(600,400);
+    video.size(500,400);
     video.hide();
 }
 
@@ -13,7 +13,7 @@ function setup(){
 }
 
 function draw(){
-    image(video,0,0, 550, 400)
+    image(video,0,0, 500, 400)
 }
 
 function Start(){
